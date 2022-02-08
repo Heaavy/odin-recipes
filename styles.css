@@ -21,16 +21,25 @@ body {
 }
 
 .container {
-    border: solid 1px gray;
     width: 100%;
+    overflow: hidden;
 }
 .ingredients {
-    float: left;
-    border: solid 1px gray;
+    float: right;
+    padding-bottom: 1000px;
+    margin-bottom: -1000px;
+    padding-right: 30px;
 }
 
 .directions {
-    float: right;
-    border: solid 1px gray;
+    float: left;
+    width: 50%;
+    padding-bottom: 1000px;
+    margin-bottom: -1000px;
+    padding-left: 30px;
 }
 
+.bottomLink {
+    text-align: center;
+    position: relative;
+}
