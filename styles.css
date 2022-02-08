@@ -1,7 +1,36 @@
- body {
-     font-family: 'Courier New', Courier, monospace;
+body {
+     font-family: 'Open Sans', Courier, monospace;
  }
 
- .showcase {
-     align-items: center;
+.showcase {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+     text-align: center;
  }
+
+#chili {
+    width: 600px;
+    height: 350px;
+    object-fit: none;
+ }
+
+.descrition {
+     text-align: center;
+}
+
+.container {
+    border: solid 1px gray;
+    width: 100%;
+}
+.ingredients {
+    float: left;
+    border: solid 1px gray;
+}
+
+.directions {
+    float: right;
+    border: solid 1px gray;
+}
+
