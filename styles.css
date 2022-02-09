@@ -24,11 +24,13 @@ body {
     width: 100%;
     overflow: hidden;
 }
+
 .ingredients {
     float: right;
     padding-bottom: 1000px;
     margin-bottom: -1000px;
     padding-right: 30px;
+    padding-left: 30px;
 }
 
 .directions {
@@ -37,9 +39,11 @@ body {
     padding-bottom: 1000px;
     margin-bottom: -1000px;
     padding-left: 30px;
+    padding-right: 30px;
 }
 
 .bottomLink {
     text-align: center;
     position: relative;
+    padding: 5px;
 }
